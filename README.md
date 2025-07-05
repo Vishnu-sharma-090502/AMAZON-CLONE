@@ -57,3 +57,5 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 📝 License
 This project is for educational purposes only. All Amazon logos and branding belong to Amazon.
 
+KEEP CODEING
+KEEP LEARNING
