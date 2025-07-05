@@ -279,3 +279,74 @@ ul a {
   margin-top: 5px;
   font-size: 0.7rem;
 }
+
+
+/**responsive web.**/
+
+/* === Responsive adjustments === */
+
+/* For smaller screens: tablets and below */
+@media (max-width: 992px) {
+  .nav-search {
+    width: 400px;
+  }
+
+  .panel-ops {
+    display: none; /* Hide middle options to simplify header */
+  }
+
+  .shop-section {
+    justify-content: center;
+  }
+
+  .box {
+    width: 45%;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 600px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+  }
+
+  .nav-logo,
+  .nav-address,
+  .Lang,
+  .nav-singin,
+  .nav-return,
+  .nav-cart {
+    margin: 5px;
+  }
+
+  .nav-search {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .panel {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .panel-deals {
+    margin-top: 10px;
+  }
+
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .hero-msg {
+    font-size: 0.75rem;
+    width: 95%;
+  }
+}
